@@ -1,0 +1,134 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* odoo_societe_connector
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e-20240701\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-22 08:44+0000\n"
+"PO-Revision-Date: 2024-08-22 08:44+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: odoo_societe_connector
+#: model_terms:ir.ui.view,arch_db:odoo_societe_connector.view_partner_form_inherit
+msgid "Are you sure you want to enrich this company?"
+msgstr "Etes-vous sûr de vouloir enrichir cette entreprise ?"
+
+#. module: odoo_societe_connector
+#: model:ir.model.fields,field_description:odoo_societe_connector.field_res_partner__capital_company
+#: model:ir.model.fields,field_description:odoo_societe_connector.field_res_users__capital_company
+msgid "Capital company"
+msgstr "Capital social"
+
+#. module: odoo_societe_connector
+#: model:ir.model.fields,field_description:odoo_societe_connector.field_res_partner__closing_date
+#: model:ir.model.fields,field_description:odoo_societe_connector.field_res_users__closing_date
+msgid "Closing date"
+msgstr "Date de clôture"
+
+#. module: odoo_societe_connector
+#: model:ir.model.fields,field_description:odoo_societe_connector.field_res_partner__code_naf
+#: model:ir.model.fields,field_description:odoo_societe_connector.field_res_users__code_naf
+msgid "Code NAF"
+msgstr "Code NAF"
+
+#. module: odoo_societe_connector
+#: model:ir.model,name:odoo_societe_connector.model_res_company
+msgid "Companies"
+msgstr "Sociétés"
+
+#. module: odoo_societe_connector
+#: model:ir.model,name:odoo_societe_connector.model_res_config_settings
+msgid "Config Settings"
+msgstr "Paramètres de configuration"
+
+#. module: odoo_societe_connector
+#: model:ir.model,name:odoo_societe_connector.model_res_partner
+msgid "Contact"
+msgstr "Contact"
+
+#. module: odoo_societe_connector
+#: model:ir.model.fields,field_description:odoo_societe_connector.field_res_partner__create_date_insee
+#: model:ir.model.fields,field_description:odoo_societe_connector.field_res_users__create_date_insee
+msgid "Create date INSEE"
+msgstr "Date de création INSEE"
+
+#. module: odoo_societe_connector
+#: model:ir.model.fields,field_description:odoo_societe_connector.field_res_partner__registration_date
+#: model:ir.model.fields,field_description:odoo_societe_connector.field_res_users__registration_date
+msgid "Date registration"
+msgstr "Date immatriculation RCS"
+
+#. module: odoo_societe_connector
+#: model:ir.model.fields,field_description:odoo_societe_connector.field_res_company__enrich_company
+#: model:ir.model.fields,field_description:odoo_societe_connector.field_res_config_settings__enrich_company
+#: model_terms:ir.ui.view,arch_db:odoo_societe_connector.view_partner_form_inherit
+msgid "Enrich company"
+msgstr "Enrichir l'entreprise"
+
+#. module: odoo_societe_connector
+#: model:ir.model.fields,field_description:odoo_societe_connector.field_res_company__enrich_contact
+#: model:ir.model.fields,field_description:odoo_societe_connector.field_res_config_settings__enrich_contact
+msgid "Enrich contact"
+msgstr "Enrichir le contact"
+
+#. module: odoo_societe_connector
+#. odoo-python
+#: code:addons/odoo_societe_connector/models/res_partner.py:0
+#, python-format
+msgid "Error code %s: something went wrong to update company"
+msgstr ""
+"Code d'erreur %s : une erreur s'est produite lors de la mise à jour de "
+"l'entreprise"
+
+#. module: odoo_societe_connector
+#. odoo-python
+#: code:addons/odoo_societe_connector/models/res_partner.py:0
+#, python-format
+msgid "Error code %s: something went wrong to update contact of this company"
+msgstr ""
+"Code d'erreur %s : une erreur s'est produite lors de la mise à jour du "
+"contact de cette société"
+
+#. module: odoo_societe_connector
+#. odoo-python
+#: code:addons/odoo_societe_connector/models/res_partner.py:0
+#, python-format
+msgid "Please check the societe.com token in company profile"
+msgstr "Veuillez vérifier le token societe.com dans le profil de l'entreprise"
+
+#. module: odoo_societe_connector
+#: model:ir.model.fields,field_description:odoo_societe_connector.field_res_partner__ref_societe_com
+#: model:ir.model.fields,field_description:odoo_societe_connector.field_res_users__ref_societe_com
+msgid "Ref societe.com"
+msgstr "Réf société.com"
+
+#. module: odoo_societe_connector
+#: model:ir.model.fields,field_description:odoo_societe_connector.field_res_partner__siret
+#: model:ir.model.fields,field_description:odoo_societe_connector.field_res_users__siret
+msgid "Siret"
+msgstr "Siret"
+
+#. module: odoo_societe_connector
+#: model_terms:ir.ui.view,arch_db:odoo_societe_connector.view_company_l10n_cl_edi_form
+msgid "Societe.com"
+msgstr ""
+
+#. module: odoo_societe_connector
+#: model:ir.model.fields,field_description:odoo_societe_connector.field_res_company__token_societe_com
+#: model:ir.model.fields,field_description:odoo_societe_connector.field_res_config_settings__token_societe_com
+msgid "Token societe.com"
+msgstr ""
+
+#. module: odoo_societe_connector
+#. odoo-python
+#: code:addons/odoo_societe_connector/models/res_partner.py:0
+#, python-format
+msgid "please enter the VAT or siret number to start the search"
+msgstr "veuillez saisir le numéro de TVA ou de TVA pour lancer la recherche"
