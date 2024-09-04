@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 {
     'name': "Connecteur Societe.com",
-    'summary': """This module allow to connect Odoo with societe.com""",
+    'summary': """Ce module permet de connecter Odoo à Societe.com.""",
     'description': """
-        This module enables integration between Odoo and Societe.com, allowing seamless synchronization of company and contact information.
+        Ce module permet l'intégration entre Odoo et Societe.com, offrant une synchronisation fluide des informations d'entreprise et de contacts.
     """,
     'author': "Ouiddoo",
     'website': "https://www.ouiddoo.fr/",
@@ -18,4 +18,7 @@
     'installable': True,
     'license': 'LGPL-3',
     'auto_install': False,
+    'price': 19.90,
+    'currency': 'EUR',
+
 }
