@@ -5,34 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connecteur Odoo Societe.com</title>
     <style>
-        /* Styles pour la galerie d'images */
+        /* Styles simples pour une galerie d'images */
         .gallery {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Réduit la taille minimale des colonnes */
-            gap: 15px; /* Augmente l'espacement entre les images */
-            padding: 10px; /* Ajoute un peu de padding autour de la galerie */
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .gallery figure {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
         .gallery img {
-            width: 100%;
+            max-width: 100%;
             height: auto;
-            max-width: 250px; /* Limite la largeur maximale des images */
-            display: block;
-            margin: 0 auto; /* Centre les images dans leurs conteneurs */
+            max-height: 300px; /* Limite la hauteur des images */
             border: 1px solid #ddd;
             border-radius: 4px;
             padding: 5px;
             background-color: #fff;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
-
-        /* Media Queries pour les petits écrans */
-        @media (max-width: 600px) {
-            .gallery {
-                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Plus petit pour les écrans mobiles */
-            }
-            .gallery img {
-                max-width: 150px; /* Réduit encore la taille des images */
-            }
+        .gallery figcaption {
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #555;
         }
     </style>
 </head>
@@ -61,13 +59,32 @@
 <p>Le processus d'installation est simple et rapide. Pour toute question ou assistance, notre équipe de support est disponible pour vous aider à chaque étape.</p>
 
 <h2>Captures d'écran :</h2>
+<h2>Captures d'écran :</h2>
 <div class="gallery">
-    <img src="screenshot1.png" alt="Capture d'écran 1">
-    <img src="screenshot2.png" alt="Capture d'écran 2">
-    <img src="screenshot3.png" alt="Capture d'écran 3">
-    <img src="screenshot4.png" alt="Capture d'écran 4">
-    <img src="screenshot5.png" alt="Capture d'écran 5">
-    <img src="screenshot6.png" alt="Capture d'écran 6">
+    <figure>
+        <img src="screenshot1.png" alt="Capture d'écran 1">
+        <figcaption>Mettre le token dans l'onglet Societe.com dans les paramètres de société.</figcaption>
+    </figure>
+    <figure>
+        <img src="screenshot2.png" alt="Capture d'écran 2">
+        <figcaption>Écrire le nom de la société, entrer le numéro TVA ou Siret, et cliquer sur le bouton "Enrichir l'entreprise".</figcaption>
+    </figure>
+    <figure>
+        <img src="screenshot3.png" alt="Capture d'écran 3">
+        <figcaption>Confirmer l'enrichissement en cliquant sur le bouton OK du popup.</figcaption>
+    </figure>
+    <figure>
+        <img src="screenshot4.png" alt="Capture d'écran 4">
+        <figcaption>Les champs se remplissent automatiquement après l'enrichissement.</figcaption>
+    </figure>
+    <figure>
+        <img src="screenshot5.png" alt="Capture d'écran 5">
+        <figcaption>Dans l'onglet Contacts & Adresses, ajouter les employés de la société.</figcaption>
+    </figure>
+    <figure>
+        <img src="screenshot6.png" alt="Capture d'écran 6">
+        <figcaption>Afficher la fiche de contact de l'employé avec toutes ses coordonnées visibles.</figcaption>
+    </figure>
 </div>
 
 </body>
