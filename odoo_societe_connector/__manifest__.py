@@ -15,6 +15,7 @@
     ],
     'application': True,
     'installable': True,
+    'images': ['static/description/cover.png'],
     'license': 'LGPL-3',
     'auto_install': False,
     'price': 19.90,
