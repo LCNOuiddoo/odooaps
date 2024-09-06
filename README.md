@@ -19,12 +19,12 @@ Ce module permet de connecter Odoo à Societe.com, offrant une synchronisation f
 Une fois installé et configuré, le module synchronisera automatiquement les informations d'entreprise depuis Societe.com vers Odoo. Vous pouvez également lancer une synchronisation manuelle à tout moment via le menu dédié.
 
 ## Captures d'Écran
-![Capture d'écran 1](static/description/screenshot1.png)
-![Capture d'écran 2](static/description/screenshot2.png)
-![Capture d'écran 2](static/description/screenshot3.png)
-![Capture d'écran 2](static/description/screenshot4.png)
-![Capture d'écran 2](static/description/screenshot5.png)
-![Capture d'écran 2](static/description/screenshot6.png)
+![Capture d'écran 1](/odoo_societe_connector/static/description/screenshot1.png)
+![Capture d'écran 2](/odoo_societe_connector/static/description/screenshot2.png)
+![Capture d'écran 3](/odoo_societe_connector/static/description/screenshot3.png)
+![Capture d'écran 4](/odoo_societe_connector/static/description/screenshot4.png)
+![Capture d'écran 5](/odoo_societe_connector/static/description/screenshot5.png)
+![Capture d'écran 6](/odoo_societe_connector/static/description/screenshot6.png)
 
 ## Support
 Pour toute question ou assistance, veuillez contacter [support@ouiddoo.fr](mailto:support@votre-site.com).
