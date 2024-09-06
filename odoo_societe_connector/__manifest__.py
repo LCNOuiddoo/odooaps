@@ -13,6 +13,11 @@
         'views/res_partner_views.xml',
         'views/res_company_views.xml',
     ],
+    'assets': {
+        'web.assets_backend': [
+            'odoo_societe_connector/static/doc/documentation.pdf',
+        ],
+    },
     'application': True,
     'installable': True,
     'images': ['static/description/cover.png'],
