@@ -33,6 +33,23 @@
             color: #555;
             text-align: center;
         }
+        /* Style du bouton d'envoi d'email */
+        .email-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        .email-button:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
@@ -92,6 +109,12 @@
         <figcaption>Afficher la fiche de contact de l'employé avec toutes ses coordonnées visibles.</figcaption>
     </figure>
 </div>
+
+<h2>Support :</h2>
+<p>
+    Si vous avez besoin d'aide, vous pouvez nous contacter en cliquant sur le bouton ci-dessous :
+</p>
+<a href="mailto:supportmodules@ouiddo.odoo.com" class="email-button">Contacter le support</a>
 
 </body>
 </html>
