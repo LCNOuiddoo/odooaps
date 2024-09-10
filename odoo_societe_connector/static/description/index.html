@@ -34,23 +34,40 @@
             text-align: center;
         }
         /* Style du bouton d'envoi d'email */
-        .email-button {
+        .btn {
             display: inline-block;
             padding: 10px 20px;
             font-size: 16px;
-            color: #fff;
+            color: #FFFFFF !important;
             background-color: #007bff;
             border: none;
             border-radius: 5px;
             text-decoration: none;
-            text-align: center;
             margin-top: 20px;
             cursor: pointer;
         }
-        .email-button:hover {
+        .btn i {
+            margin-right: 8px;
+        }
+        .btn:hover {
             background-color: #0056b3;
         }
+        /* Style pour l'image vidéo */
+        .video-thumbnail {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            transition: transform 0.2s ease-in-out;
+        }
+        .video-thumbnail:hover {
+            transform: scale(1.05); /* Effet de zoom au survol */
+        }
     </style>
+    <!-- Inclusion de Font Awesome pour l'icône d'enveloppe -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -110,11 +127,20 @@
     </figure>
 </div>
 
-<h2>Support :</h2>
+<!-- Ajout du titre et de l'image cliquable pour la vidéo tutoriel -->
+<h2>Vidéo Tutoriel :</h2>
+<p>Découvrez comment utiliser le module en regardant le tutoriel ci-dessous :</p>
+<a href="https://www.youtube.com/watch?v=ebze_UOu9yo" target="_blank">
+    <img src="video.png" alt="Tutoriel Vidéo" class="video-thumbnail">
+</a>
+
+<h2>Besoin d'aide ?</h2>
 <p>
     Si vous avez besoin d'aide, vous pouvez nous contacter en cliquant sur le bouton ci-dessous :
 </p>
-<a href="mailto:supportmodules@ouiddo.odoo.com" class="email-button">Contacter le support</a>
+<a class="btn btn-primary btn-md mt8" style="color:#FFFFFF !important" href="mailto:supportmodules@ouiddo.odoo.com" target="_blank">
+    <i class="fa fa-envelope"></i> Email
+</a>
 
 </body>
 </html>
